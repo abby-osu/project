@@ -15,14 +15,18 @@
 
 /* homepage */
 
+.citing_audio{
+    font-size: 9px;
+}
+
+
 #carouselExampleInterval{
     width: 50%;
     margin: auto;
 }
 
 .carousel-item img{
-    width: 300px;
-    height: 300px;
+    height: 500px;
 }
 
 
@@ -52,6 +56,14 @@ ul.scroll_box_list{
     width: 300px;
     height: 300px;
 }
+
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
 
 ul.holidays{
     list-style-type: none;

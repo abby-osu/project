@@ -34,6 +34,23 @@
         <source src="birthday_song.mp3" type="audio/mp3">
       </audio>
 
+     <br>
+     <!-- Citing for  -->
+     <p class="citing_audio">
+       <a href="https://www.freemusicarchive.org/music/Happy_Birthday_Song_Contest/The_New_Birthday_Song_Contest" target="_blank">Source</a>
+     </p>
+
+  
+
+
+
+
+
+
+
+
+
+
     <form>
         <input type="button" value="Press Me For A Suprise!" onclick="party.screen()">
     </form>
@@ -49,12 +66,16 @@
         <div class="carousel-inner">
           <div class="carousel-item active" data-interval="10000">
             <img src="images/more_balloons.jpg" class="d-block w-100" alt="...">
+            <cite><a href="https://unsplash.com/photos/vrkSVpOwchk" target="_blank">Balloons</a> from Unsplash</cite> 
+
           </div>
           <div class="carousel-item" data-interval="2000">
             <img src="images/sillyface.jpg" class="d-block w-100" alt="...">
+            <cite><a href="https://unsplash.com/photos/_0aKQa9gr4s" target="_blank">Balloons</a> from Unsplash</cite> 
           </div>
           <div class="carousel-item">
             <img src="images/candels.jpg" class="d-block w-100" alt="...">
+            <cite><a href="https://unsplash.com/photos/M20ylqCzSZw" target="_blank">Candels</a> from Unsplash</cite> 
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
@@ -114,10 +135,39 @@
 
     </ul>
     <div class="celebration_images">
-        <img src="images/balloon.jpg">
-        <img src="images/halloween.jpg">
-        <img src="images/pineapple.jpg">
-        <img src="images/valentine.jpg">
+
+        <div class="row pic_row">
+          <div class="column">
+            <figure>
+              <img src="images/balloon.jpg">
+              <a href="https://unsplash.com/photos/4Xy08NbMBLM" target="_blank""><figcaption>Balloons from Unsplash</figcaption> </a>
+            </figure>
+          </div>
+
+          <div class="column">
+            <figure>
+              <img src="images/halloween.jpg">
+              <a href="https://unsplash.com/photos/MYRG0ptGh50" target="_blank"><figcaption>Pumpkins from Unsplash</figcaption> </a>
+            </figure>
+          </div>
+
+          <div class="column">
+            <figure>
+              <img src="images/pineapple.jpg" >
+              <a href="https://unsplash.com/photos/qWlkCwBnwOE" target="_blank"><figcaption> Party Pineapple from Unsplash</figcaption> </a>
+            </figure>
+          </div>
+
+          <div class="column">
+            <figure>
+              <img src="images/valentine.jpg">
+              <a href="https://unsplash.com/photos/hsMxqh63j-0" target="_blank"><figcaption>Flowers from Unsplash</figcaption> </a>
+            </figure>
+          </div>
+
+        </div>
+
+
     </div>
    
 </div>
@@ -146,20 +196,6 @@
         </li>
     </ul>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <body>
   <script src="./party.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

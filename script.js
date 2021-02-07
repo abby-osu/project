@@ -10,13 +10,10 @@ function openTab(event, tabName){
         tabcontent[i].style.display ="none";
     }
 
-    //
-
     tablinks = document.getElementsByClassName("tablinks");
     for(var i = 0; i < tablinks.length; i++){
         tablinks[i].className = tablinks[i].className.replace("active", "");
     }
-
 
     document.getElementById(tabName).style.display = "block";
     event.currentTarget.className += " active";
